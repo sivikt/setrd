@@ -1,0 +1,6 @@
+# single-line comment
+
+O = {}
+A = { a, O, b, }
+B = < 1, 2, 3, b1, b2 >
+C = {A, B}

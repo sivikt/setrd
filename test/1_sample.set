@@ -1,0 +1,28 @@
+# This is a comment string
+## 
+# For the sake of simplicity and monosemantic set definition language 
+# doesn't allow us to define unnamed sets as an elements of other sets.
+# Instead you have to extract such definition in a separate line.
+#  
+# Anyway, it's just a C lang playing and not pretend to be a fine organized
+# mathematically rigorous and consistent set definition language.  
+
+O = {}
+A = { 1, 2, 3 }
+B = { a, O, b }
+
+C0 = {7,9}
+C = { A, B, C0 }
+
+D = < 1, 2, 3 >
+
+E_coule0 = <1, a>
+E_coule1 = <2, b>
+E = { E_couple0, E_couple1 }
+
+F_couple0 = <3,c>
+F_couple1 = <4,d>
+F = < F_couple0, F_couple1 >
+
+G = {A, B, C, D, E, F, G}
+
